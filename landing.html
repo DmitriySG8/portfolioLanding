@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css?_v=20221212120537">
+    <title>Projects</title>
+</head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+    <div class="header__container _container">
+        <div class="header__navigation">
+            <a href="../index.html" class="header__logo">Freelancer <span class="header__span">portfolio</span></a>
+            <div class="header__menu menu">
+                <div class="menu__icon icon-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                 </div>
+                <nav class="menu__body">
+                    <ul class="menu__list">
+
+                        <!-- потом нужно будет поставить в ссылках не просто класс active, а  menu__link-active -->
+
+                        <li><a href="../index.html" class="menu__link menu__link-active">Projects</a></li>
+                        <li><a href="../skills.html" class="menu__link ">Skills</a></li>
+                        <li><a href="../contacts.html" class="menu__link ">Contacts</a></li> 
+                    </ul>
+                </nav>
+          </div>
+        </div>
+    </div>
+</header>
+
+
+
+
+
+
+
+
+
+
+<!-- 
+    Burger
+
+    
+<header class="header">
+    <div class="header__container _container">
+        <h2 class="header__title">Kelvin</h2>
+        <div class="header__menu menu">
+            <div class="menu__icon icon-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav class="menu__body">
+                    <ul class="menu__list">
+                        <li><a href="#" class="menu__link">Home</a></li>
+                        <li><a href="#" class="menu__link">Works</a></li>
+                        <li><a href="#" class="menu__link">Services</a></li>
+                        <li><a href="#" class="menu__link">About</a></li>
+                        <li><a href="#" class="menu__link">Contact</a></li>
+                    </ul>
+            </nav>
+        </div>
+    </div>
+</header> -->
+
+
+
+
+      <main class="page">
+        <!-- блок header__welcome вынес отдельно, чтобы отделить навигацию и приветствие отдельно, из за того что, цвет будет меняться в блоке header__welcome, но не в навигации. -->
+
+        <section class="project">
+            <div class="project__container _container">
+                <h1 class="project__title">Landing</h1>
+                <div class="project__picture">
+                    <picture><source srcset="./img/project/05-big.webp" type="image/webp"><img src="./img/project/05-big.png" alt="video"></picture>
+                </div>
+                <p class="project__text">Skills: React, Node.js, MongoDB</p>
+                <a href="#" class="project__link">
+                    <img class="project__gitHub" src="./img/social/gitHub-black.svg" alt="gitHub"><span>GitHub repo</span></a>
+            </div>
+        </section>
+
+        <!-- Табы
+            <section class="tabs">
+    <div class="tabs__container _container">
+        <div class="tabs__header">
+            <div class="tabs__header-item active" data-tab="#tab_1">Вкладка 1</div>
+            <div class="tabs__header-item" data-tab="#tab_2">Вкладка 2</div>
+            <div class="tabs__header-item" data-tab="#tab_3">Вкладка 3</div>
+            <div class="tabs__header-item" data-tab="#tab_4">Вкладка 4</div>
+            <div class="tabs__header-item" data-tab="#tab_5">Вкладка 5</div>
+        </div>
+        <div class="tabs__content">
+            <div class="tabs__content-item active" id="tab_1">1</div>
+            <div class="tabs__content-item" id="tab_2">2</div>
+            <div class="tabs__content-item" id="tab_3">3</div>
+            <div class="tabs__content-item" id="tab_4">4</div>
+            <div class="tabs__content-item" id="tab_5">5</div>
+        </div>
+    </div>
+</section> -->
+      </main>
+      <footer class="social">
+    <div class="social__conatiner _container">
+        <div class="social__row">
+            <a href="https://vk.com"><img src="../img/social/vk.svg" alt="social" class="social__mod"></a>
+            <img src="../img/social/instagram.svg" alt="social" class="social__mod">
+            <img src="../img/social/twitter.svg" alt="social" class="social__mod">
+            <img src="../img/social/gitHub.svg" alt="social" class="social__mod">
+            <img src="../img/social/linkedIn.svg" alt="social" class="social__mod">
+        </div>
+        <p class="social__text">© 2022 frontend-dev.com</p>
+    </div>
+</footer>
+    </div>
+    <script src="js/app.min.js?_v=20221212120537"></script>
+  </body>
+</html>
